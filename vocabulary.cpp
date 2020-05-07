@@ -11,6 +11,7 @@ using namespace std;
 #define LOG(X)                                                                 \
   cout << X << endl;                                                           \
   cin.get();
+// copy from <https://blog.csdn.net/yasi_xi/article/details/9216497>
 inline string &ltrim(string &str) {
   string::iterator p =
       find_if(str.begin(), str.end(), not1(ptr_fun<int, int>(isspace)));
