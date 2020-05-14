@@ -12,22 +12,24 @@ using namespace std;
   cout << X << endl;                                                           \
   cin.get();
 // copy from <https://blog.csdn.net/yasi_xi/article/details/9216497>
+
 inline string &ltrim(string &str) {
-  string::iterator p =
-      find_if(str.begin(), str.end(), not1(ptr_fun<int, int>(isspace)));
-  str.erase(str.begin(), p);
-  return str;
+    string::iterator p =
+        find_if(str.begin(), str.end(), not1(ptr_fun<int, int>(isspace)));
+    str.erase(str.begin(), p);
+    return str;
 }
+
 inline string &rtrim(string &str) {
-  string::reverse_iterator p =
-      find_if(str.rbegin(), str.rend(), not1(ptr_fun<int, int>(isspace)));
-  str.erase(p.base(), str.end());
-  return str;
+    string::reverse_iterator p =
+        find_if(str.rbegin(), str.rend(), not1(ptr_fun<int, int>(isspace)));
+    str.erase(p.base(), str.end());
+    return str;
 }
 
 inline string &trim(string &str) {
-  ltrim(rtrim(str));
-  return str;
+    ltrim(rtrim(str));
+    return str;
 }
 // it is so hard for me to write a split func in cpp 2020 05 07
 void readWords(string file) {

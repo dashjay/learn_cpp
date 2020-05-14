@@ -1,1 +1,4 @@
 vocabulary
+chapter-bit/.idea
+*.o
+chapter3-debug/plog

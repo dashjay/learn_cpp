@@ -1,9 +1,11 @@
-.PHONY: voc
+.PHONY: voc cpp17
 
-all: voc
+all: voc cpp17
 
 voc:
-	g++ -o vocabulary vocabulary.cpp;
+	clang++ -Wc++11-extensions -o vocabulary vocabulary.cpp;
 	./vocabulary
 
-
+cpp17:
+	clang++ -std=c++17 -o ./build/cpp17test cpp17test.cpp
+	./build/cpp17test
