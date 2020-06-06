@@ -25,4 +25,12 @@ precedence # 优先级
 associativity # 结合性
 precise # 精确的
 Analogously # 类似的
+counter-intuitive # 反直觉的
+underneath # 在……下面
+spot # 地点
+pseudo # 伪 伪随机数（pseudo-random）
+distribution uniformity # 分布一致性
+extracticon # 提取
+anticipate # 预测
+accordingly # 因此
 
