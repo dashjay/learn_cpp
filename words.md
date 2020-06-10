@@ -32,5 +32,10 @@ pseudo # 伪 伪随机数（pseudo-random）
 distribution uniformity # 分布一致性
 extracticon # 提取
 anticipate # 预测
-accordingly # 因此
+accordingly #
+The key takeaway # 这里的关键点
+restrictive # 有限制的
+awkward # 使用不便的，尴尬的
+deduce # 推断
+verbose # 啰嗦
 
