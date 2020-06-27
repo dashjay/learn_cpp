@@ -38,4 +38,5 @@ restrictive # 有限制的
 awkward # 使用不便的，尴尬的
 deduce # 推断
 verbose # 啰嗦
-
+inadvertently # 不经意的
+asking for trouble # 自找麻烦 
