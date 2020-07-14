@@ -40,3 +40,7 @@ deduce # 推断
 verbose # 啰嗦
 inadvertently # 不经意的
 asking for trouble # 自找麻烦 
+hierarchies # 等级制度
+pplicable # 适当的
+simultaneously # 同时
+
